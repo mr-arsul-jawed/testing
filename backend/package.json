@@ -5,13 +5,19 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "dev": "node src/app.js"
+    "dev": " nodemon src/app.js"
   },
   "author": "akhi , muskan",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "mongoose": "^8.14.1"
+    "mongoose": "^8.14.1",
+    "router": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
